@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <title>SaHiL-Portfolio</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar sidebarGo">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/skill.html">Skills</a></li>
+          <li><a href="/project.html">Projects</a></li>
+          <li><a href="/edu.html">Education</a></li>
+          <li><a href="/cv.html">Resume</a></li>
+          <li><a href="/contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="hamburg">
+        <img src="data/ham.png" class="ham" alt="" width="45">
+        <img src="data/cross.png" class="cross" alt="" width="25">
+      </div>
+
+      <div class="links">
+        <a id="linkedin" href="https://www.linkedin.com/in/sahil021/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a id="github" href="https://github.com/Sahilgul/" target="_blank"><i class="fab fa-github"></i></a>
+        <a id="twitter" href="https://twitter.com/msahilgul" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a id="insta" href="https://www.instagram.com/sahilgul15/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="buttons">
+          <!-- <a href="https://drive.google.com/file/d/1i7LNNVGlAdMjQc91VPKPuMLwwLPouBkJ/view?usp=sharing" target="_blank"><button>Download CV</button></a> -->
+          <!-- <a href="contact.html"><button>Contact Me</button></a> -->
+        </div>
+      </div>
+
+
+      <div class="contactForm">
+        <h1>Contact Me</h1>
+        <form action="https://formsubmit.co/e8e542ac8ca6923ee72ddcc1566235e7" method="POST">
+          <div class="mb-3">
+            <label for="client_name" class="form-label">Name</label>
+            <input type="" class="form-control" id="client_name" aria-describedby="" placeholder="Name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="client_mail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="client_mail" aria-describedby="emailHelp" placeholder="Email" required>
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="" class="form-control" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="mb-3 form-check">
+            <label class="form-check-label" for="client_mesg">Message</label>
+            <textarea id="client_mesg" name="subject" placeholder="Message" style="height:200px" required></textarea>
+          </div>
+          <div>
+            <button type="submit" class="submitBtn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+  <footer class="foot_con">
+      © 2022 Copy Rights Reserved 
+  </footer>
+
+</body>
+
+</html>
