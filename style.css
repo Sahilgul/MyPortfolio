@@ -450,8 +450,7 @@ button.submitBtn {
   }
 
   .skillT {
-    margin-top: 5%;
-    padding-top: 20%;
+    padding-top: 9%;
     font-size: 152%;
     /* margin-left: 33%; */
     text-align: center;
@@ -540,9 +539,9 @@ button.submitBtn {
     overflow: hidden;
     width: 94%;
     background-color: rgb(110, 110, 105);
-    padding: 4%;
+    padding: 5%;
     text-align: center;
-    margin-top: -4%;
+    margin-top: 15%;
   }
 
   .foot_edu {
